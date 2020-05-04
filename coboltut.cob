@@ -25,5 +25,18 @@
         ACCEPT USERNAME
         DISPLAY "Hello " USERNAME
         
+        MOVE ZERO TO USERNAME
+        DISPLAY USERNAME
+        
+        DISPLAY "Enter 2 values to sum "
+        ACCEPT NUM1
+        ACCEPT NUM2
+        COMPUTE TOTAL = NUM1 + NUM2
+        DISPLAY NUM1 " + " NUM2 " = " TOTAL
+        
+        DISPLAY "Enter your Social Security Number "
+        ACCEPT SSNUM
+        DISPLAY "Area " SSAREA
+        
         STOP RUN.
         
