@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# But not the gitignore file
+!.gitignore
+
+# And not the COBOL source code
+!*.cob
+!*.cpy
+
+# Even if they are in subdirectories
+!*/
+
